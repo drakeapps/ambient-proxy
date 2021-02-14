@@ -2,7 +2,7 @@
 
 This blindly proxies ambient data to a websocket server
 
-You can then use pws-publisher to write this data to influx/mqtt/another websocket server. 
+You can then use [pws-publish](https://github.com/drakeapps/pws-publish) to write this data to influx/mqtt/another websocket server. 
 
 For reasons I can't figure out, ambient realtime api works about 10% of the time in python. But I get a 100% success rate in node
 
